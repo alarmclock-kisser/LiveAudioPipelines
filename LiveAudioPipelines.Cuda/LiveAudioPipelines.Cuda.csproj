@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\marce\.nuget\packages\alarmclockkisser.asyncuda\1.2.131\contentFiles\any\net8.0\AsynCUDA.favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="alarmclockkisser.AsynCUDA" Version="1.2.131" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiveAudioPipelines.Shared\LiveAudioPipelines.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Kernels\" />
+  </ItemGroup>
+
+</Project>
