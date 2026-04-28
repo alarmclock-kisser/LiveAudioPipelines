@@ -50,6 +50,7 @@ namespace LiveAudioPipelines.Cuda
             // Kernel on Complexes pointer
 
             // FFT inverse, pull and overlap-add + normalize
+            return [];
         }
 
     }
