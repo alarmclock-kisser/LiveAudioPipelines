@@ -11,8 +11,8 @@ namespace LiveAudioPipelines.Forms.Statics
         public const int MaxHeight = 640;
         public const int MaxWidth = 800;
         public const int MinHeight = 80;
-        public const int MinWidth = 200;
-        public const int DefaultHeightOffset = 80;
+        public const int MinWidth = 220;
+        public const int DefaultHeightOffset = 60;
 
         private static readonly Dictionary<AudioBag, ListChangedEventHandler> listChangedHandlers = new();
         private static readonly Dictionary<AudioBag, EventHandler> resizeHandlers = new();
