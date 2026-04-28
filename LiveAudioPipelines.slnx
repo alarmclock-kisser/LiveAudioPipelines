@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="LiveAudioPipelines.Core/LiveAudioPipelines.Core.csproj" />
+  <Project Path="LiveAudioPipelines.Forms/LiveAudioPipelines.Forms.csproj" />
+  <Project Path="LiveAudioPipelines.Shared/LiveAudioPipelines.Shared.csproj" />
+</Solution>
